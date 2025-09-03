@@ -25,11 +25,11 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/NewCar'
+              $ref: 
       responses:
         '201':
           description: Car created successfully
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Car'
+                $ref: 
