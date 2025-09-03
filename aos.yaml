@@ -18,7 +18,7 @@ paths:
                 schema:
                   type: array
                   items:
-                    $ref: '#/components/schemas/Item'
+                    $ref:
       post:
         summary: Create a new item
         requestBody:
@@ -26,14 +26,14 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Item'
+                $ref: 
         responses:
           '201':
             description: Item created
             content:
               application/json:
                 schema:
-                  $ref: '#/components/schemas/Item'
+                  $ref:
           '400':
             description: Invalid input
   
@@ -50,14 +50,14 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Item'
+                $ref:
         responses:
           '200':
             description: Item updated
             content:
               application/json:
                 schema:
-                  $ref: '#/components/schemas/Item'
+                  $ref:
           '400':
             description: Invalid input
           '404':
